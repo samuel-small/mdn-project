@@ -32,12 +32,12 @@ let myImage = document.querySelector("img");
 
 myImage.addEventListener("click", function () {
     let mySrc = myImage.getAttribute("src");
-    console.log("Image actuelle :", mySrc);
+    console.log("Actual image :", mySrc);
 
     if (mySrc.includes("firefox-icon")) {
-        myImage.setAttribute("src", "images/image-js.webp");
+        myImage.setAttribute("src", "image-js.webp");
     } else {
-        myImage.setAttribute("src", "images/firefox-icon.png");
+        myImage.setAttribute("src", "firefox-icon.png");
     }
 });
 
